@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1567518672 source:c:\users\administrator\desktop\bitree\bitree.cpp
+	"BiTree.hpp"
+	<iostream>
+	<cstdlib>
+
+1567518703 c:\users\administrator\desktop\bitree\bitree.hpp
+	<cstdlib>
+	<vector>
+	<iostream>
+	"Queue.hpp"
+	"Stack.hpp"
+
+1567519041 source:c:\users\administrator\desktop\bitree\main.cpp
+	<iostream>
+	"BiTree.hpp"
+	"Stack.hpp"
+	"Queue.hpp"
+
+1567515772 c:\users\administrator\desktop\bitree\stack.hpp
+
+1567513268 c:\users\administrator\desktop\bitree\queue.hpp
+
+1567428964 source:c:\users\administrator\desktop\bitree\queue.cpp
+	<iostream>
+	"Queue.hpp"
+
+1567510906 source:c:\users\administrator\desktop\bitree\stack.cpp
+	<iostream>
+	"Stack.hpp"
+
