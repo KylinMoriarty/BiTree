@@ -20,6 +20,7 @@ public:
     void InitStack();
     bool isEmpty();
     bool Push(Type );
+    Type* ReturnFromBottom();
     Type Pop();
     Type GetTop();
 private:
@@ -55,6 +56,19 @@ bool Stack<Type>::Push(Type x){
         return false;
     s.data[++s.top]=x;
     return true;
+}
+
+template<class Type>
+Type* Stack<Type>::ReturnFromBottom(){
+    Type *p = new Type[s.top+2];//注意要加2 为啥呢
+    while(s.top!=-1){
+        //cout<<s.top<<endl;
+        //cout<<s.data[s.top]<<endl;
+        p[s.top]=s.data[s.top];
+        //cout<<p[s.top]<<endl;
+        s.top--;
+    }
+    return p;
 }
 
 template<class Type>

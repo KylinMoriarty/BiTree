@@ -1,23 +1,23 @@
 # depslib dependency file v1.0
-1567518672 source:c:\users\administrator\desktop\bitree\bitree.cpp
+1568896003 source:c:\users\administrator\desktop\bitree\bitree.cpp
 	"BiTree.hpp"
 	<iostream>
 	<cstdlib>
 
-1567518703 c:\users\administrator\desktop\bitree\bitree.hpp
+1568895997 c:\users\administrator\desktop\bitree\bitree.hpp
 	<cstdlib>
 	<vector>
 	<iostream>
 	"Queue.hpp"
 	"Stack.hpp"
 
-1567519041 source:c:\users\administrator\desktop\bitree\main.cpp
+1568895997 source:c:\users\administrator\desktop\bitree\main.cpp
 	<iostream>
 	"BiTree.hpp"
 	"Stack.hpp"
 	"Queue.hpp"
 
-1567515772 c:\users\administrator\desktop\bitree\stack.hpp
+1568722135 c:\users\administrator\desktop\bitree\stack.hpp
 
 1567513268 c:\users\administrator\desktop\bitree\queue.hpp
 
